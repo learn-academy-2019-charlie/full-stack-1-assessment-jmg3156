@@ -23,7 +23,8 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 Render router
 
 #### 6. When would you use a generate resource over a generate controller?
-generate resource gives us a model file and a migration file. 
+You use generate resource to save time because is generates the controller, migration, resource, model file, whereas generate controller 
+just generates the controller file. 
 
 #### 7. Explain the difference between a controller spec and a request spec.
 controller specs allows you to simulate a single http request in each example.Great for testing API controllers
